@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE:edge" />
+    <meta name="viewport" content="width:device-width, initial-scale=1,0" />
 
     <title>Netfilmex</title>
 
@@ -14,18 +15,30 @@
         }
 
         #heading {
-            background: #e50914;
+            background: none;
         }
 
         #heading .h1 {
             font-size: 24px;
-            topext-transform: uppercase;
+            text-transform: uppercase;
         }
 
         #heading .link {
-            color: white;
+            color: black;
             text-decoration: none;
             font-family: sans-serif;
+        }
+
+        #segundo_heading .is-in-center {
+            color: black;
+            padding: 75px;
+            width: 950px;
+            margin: 0;
+            text-align: center;
+        }
+
+        #segundo_heading .titulo-dois {
+            text-align: center;
         }
     </style>
 </head>
@@ -33,9 +46,13 @@
 <body>
     <header id="heading">
         <h1 class="h1">
-         <a class="link" href="#">Netfilmex</a>
+         <a class="link" href="https://www.netflix.com/br/" target="_black">Netfilmex</a>
         </h1>
+        <!-- to put the href in another page, do target="_black" -->
     </header>
+    <heading id="segundo_heading" class="is-in-center">
+        <h2 class="titulo-dois">Filmes, séries e muito mais. <br> Sem limites.</h2>
+    </heading>
 </body>
 
 </html>
