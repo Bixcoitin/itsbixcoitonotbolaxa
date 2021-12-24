@@ -10,7 +10,7 @@ if (wantOrNot == false) {
   num1 = Number(num1);
   num2 = Number(num2);
 
-  let plus = num1 + num2;
+  const plus = num1 + num2;
 
   alert(`The operation result is: ${plus}`);
 }
