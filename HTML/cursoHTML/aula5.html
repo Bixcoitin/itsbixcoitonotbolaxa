@@ -1,79 +1,78 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width:device-width, initial-scale=1,0" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width:device-width, initial-scale=1,0" />
+    <title>aula5</title>
 
-  <title>aula5</title>
+    <style>
+      .imgResolution {
+        height: 100px;
+        width: 75px;
+      }
 
-  <style>
-    .imgResolution {
-      height: 100px;
-      width: 75px;
-    }
+      .pre {
+        background-color: black;
+      }
 
-    .pre {
-      background-color: black;
-    }
+      .codigo {
+        color: white;
+      }
 
-    .codigo {
-      color: white;
-    }
+      .vermelho {
+        color: red;
+      }
 
-    .vermelho {
-      color: red;
-    }
+      .tamanho {
+        font-size: 24px;
+      }
+    </style>
+    <!-- css no head -->
+  </head>
 
-    .tamanho {
-      font-size: 24px;
-    }
-  </style>
-  <!-- css no head -->
-</head>
+  <body>
+    <h1>Cabeçalho</h1>
+    <h2>Subtítulo</h2>
+    <!-- <h1 class="primeiro;">Cabeçalho</h1> -->
+    <!-- <h2 style="background: purple">Subtítulo roxo</h2> -->
+    <!-- css dentro de tag -->
+    <a href="aula4.html" target="_blank">
+      <img class="imgResolution" src="eu.jpeg" alt="este sou eu" />
+    </a>
+    <p>
+      <b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> sit amet consectetur
+      adipisicing elit. <em>Dignissimos</em> <a href="aula4.html">culpa</a> in
+      saepe, <a href="aula3.html" target="_blank">tempora</a>
+      <del>blanditiis</del> <ins>cumque</ins> <s>distinctio</s>
+      <u>quidem</u> sint aspernatur dolor harum possimus dolores vel illo rem
+      mollitia fugit corporis! <small>Magnam</small>? 2<sup>2</sup>
+      H<sub>2</sub>O
+      <!-- strong é falar mais forte -->
+      <!-- em é para dar emfase -->
+      <!-- target é para abrir o arquivo ou página em algum canto -->
+    </p>
 
-<body>
-  <h1>Cabeçalho</h1>
-  <h2>Subtítulo</h2>
-  <!-- <h1 class="primeiro;">Cabeçalho</h1> -->
-  <!-- <h2 style="background: purple">Subtítulo roxo</h2> -->
-  <!-- css dentro de tag -->
-  <a href="aula4.html" target="_blank">
-    <img class="imgResolution" src="eu.jpeg" alt="este sou eu" />
-  </a>
-  <p>
-    <b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> sit amet consectetur
-    adipisicing elit. <em>Dignissimos</em> <a href="aula4.html">culpa</a> in
-    saepe, <a href="aula3.html" target="_blank">tempora</a>
-    <del>blanditiis</del> <ins>cumque</ins> <s>distinctio</s>
-    <u>quidem</u> sint aspernatur dolor harum possimus dolores vel illo rem
-    mollitia fugit corporis! <small>Magnam</small>? 2<sup>2</sup>
-    H<sub>2</sub>O
-    <!-- strong é falar mais forte -->
-    <!-- em é para dar emfase -->
-    <!-- target é para abrir o arquivo ou página em algum canto -->
-  </p>
+    <hr />
 
-  <hr>
-
-  <p>
-    <span class="vermelho tamanho">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. <br>
-    Quas magni modi voluptates reiciendis iusto cum
-    <q cite="aula1.html">nobis</q>
-    iste dicta voluptas <code>console.log</code> laboriosam dolor est molestiae dolorem, voluptate voluptatem labore.
-    Nulla, eos corrupti.
-  </p>
-  <blockquote cite="aula1.html">Este é um bloco de citação</blockquote>
-  <pre class="pre"><code class="codigo">def algo():
+    <p>
+      <span class="vermelho tamanho">Lorem ipsum</span> dolor sit amet,
+      consectetur adipisicing elit. <br />
+      Quas magni modi voluptates reiciendis iusto cum
+      <q cite="aula1.html">nobis</q>
+      iste dicta voluptas <code>console.log</code> laboriosam dolor est
+      molestiae dolorem, voluptate voluptatem labore. Nulla, eos corrupti.
+    </p>
+    <blockquote cite="aula1.html">Este é um bloco de citação</blockquote>
+    <pre class="pre"><code class="codigo">def algo():
     x = 0
     z = 0
     
     print(x, z)
   </code></pre>
 
-  <div class="vermelho">Eu sou um BLOCO</div>
-</body>
-
+    <div class="vermelho">Eu sou um BLOCO</div>
+  </body>
 </html>

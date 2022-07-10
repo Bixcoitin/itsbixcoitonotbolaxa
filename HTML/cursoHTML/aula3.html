@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0" />
+    <title>aula3</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1,0" />
-  <title>aula3</title>
+    <style>
+      h1 {
+        background: rgb(145, 14, 14);
+      }
 
-  <style>
-    h1 {
-      background: rgb(145, 14, 14);
-    }
+      h2 {
+        background: blue;
+      }
 
-    h2 {
-      background: blue;
-    }
+      #cabecalho {
+        background: brown;
+      }
 
-    #cabecalho {
-      background: brown;
-    }
+      .fundoLilas {
+        background: purple;
+      }
 
-    .fundoLilas {
-      background: purple;
-    }
+      .bold {
+        color: pink;
+      }
+    </style>
+  </head>
 
-    .bold {
-      color: pink;
-    }
-  </style>
-</head>
+  <body>
+    <h1 id="cabecalhoUm" class="fundoVermelho bordeEsquerda">Vai vir aqui</h1>
+    <!-- está sendo selecionado pelo css -->
+    <h2 id="cabecalhoDois" class="fundoAzul">isso está azul</h2>
 
-<body>
-  <h1 id="cabecalhoUm" class="fundoVermelho bordeEsquerda">Vai vir aqui</h1>
-  <!-- está sendo selecionado pelo css -->
-  <h2 id="cabecalhoDois" class="fundoAzul">isso está azul</h2>
-
-  <h2 id="cabecalho" class="fundoBrown">isso está marrom</h2>
-  <!-- o id que está selecionado, não pode colocar mais de 1 id igual -->
-  <p id="paragrafo" class="fundoLilas">
-    sim, isso está <b class="bold">Lilás</b>
-    <!-- b é negrito (bold) -->
-  </p>
-  <!-- a classe que está selecionada, sempre preferir usar class -->
-</body>
-
+    <h2 id="cabecalho" class="fundoBrown">isso está marrom</h2>
+    <!-- o id que está selecionado, não pode colocar mais de 1 id igual -->
+    <p id="paragrafo" class="fundoLilas">
+      sim, isso está <b class="bold">Lilás</b>
+      <!-- b é negrito (bold) -->
+    </p>
+    <!-- a classe que está selecionada, sempre preferir usar class -->
+  </body>
 </html>

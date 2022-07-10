@@ -1,6 +1,6 @@
 // String, number, undefined, null, boolean, symbol
 
-const nome = 'Dante'; //string
+const nome = "Dante"; //string
 const nome1 = "Dante"; //string
 const nome2 = `Dante`; //string
 

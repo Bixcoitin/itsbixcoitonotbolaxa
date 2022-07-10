@@ -5,7 +5,7 @@ let num1 = 5;
 const num2 = 10;
 console.log(num1 + num2);
 
-num1 = '5';
+num1 = "5";
 console.log(num1 + num2);
 
 // ** potenciação
@@ -47,11 +47,11 @@ console.log(deuQuantos);
 
 // problemas com concatenacao
 
-const concatete = parseInt('10');
+const concatete = parseInt("10");
 const concatate2 = 10;
 console.log(concatete + concatate2);
 console.log(typeof concatete);
 
-const nAN = Number('Dante');
+const nAN = Number("Dante");
 console.log(concatate2 + nAN);
 console.log(typeof nAN);

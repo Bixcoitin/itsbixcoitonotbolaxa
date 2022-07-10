@@ -1,16 +1,16 @@
 let nome = prompt("What's your name?");
 //document.write("One text"); | windows.document.write();
 
-const nomeR = nome.replace(/ /, '');
+const nomeR = nome.replace(/ /, "");
 const nomeT = nome.trim();
-const nameSplited = nome.split(' ');
+const nameSplited = nome.split(" ");
 const lengthR = nomeR.length;
 const length = nome.length;
 const lengthT = nomeT.length;
 const nameSliced = nomeT.slice(-3); // se vc n especificar um final ele seta como a string inteira
 const secondLetter = nome[1]; // pode ser tbm nome.charAt(1);
-const firstA = nome.indexOf('i');
-const lastA = nome.lastIndexOf('i');
+const firstA = nome.indexOf("i");
+const lastA = nome.lastIndexOf("i");
 const upperCase = nome.toUpperCase();
 const lowerCase = nome.toLowerCase();
 
