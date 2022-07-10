@@ -1,4 +1,4 @@
-const nome = prompt("What's your name?");
+let nome = prompt("What's your name?");
 //document.write("One text"); | windows.document.write();
 
 const nomeR = nome.replace(/ /, '');
